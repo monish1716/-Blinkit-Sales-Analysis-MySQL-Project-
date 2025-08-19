@@ -1,4 +1,8 @@
 # 🛒 Blinkit Sales Analysis (MySQL Project)
+![MySQL Badge](https://img.shields.io/badge/Database-MySQL-blue)
+![SQL Badge](https://img.shields.io/badge/Language-SQL-green)
+![CSV Badge](https://img.shields.io/badge/Data-CSV-orange)
+
 
 ## 📌 Overview
 This project analyzes Blinkit's sales performance, customer satisfaction, and inventory distribution using **MySQL queries**.  
