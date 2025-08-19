@@ -7,6 +7,7 @@
 ## 📌 Overview
 This project analyzes Blinkit's sales performance, customer satisfaction, and inventory distribution using **MySQL queries**.  
 The goal is to generate insights that help optimize sales, outlet performance, and customer experience.
+This MySQL project analyzes ~50,000 grocery sales records over a 1-year period to assess performance, outlet distribution, and customer ratings.
 
 ---
 
