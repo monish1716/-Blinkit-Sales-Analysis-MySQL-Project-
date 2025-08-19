@@ -1,18 +1,35 @@
 # 🛒 Blinkit Sales Analysis (MySQL Project)
+
 ![MySQL Badge](https://img.shields.io/badge/Database-MySQL-blue)
 ![SQL Badge](https://img.shields.io/badge/Language-SQL-green)
 ![CSV Badge](https://img.shields.io/badge/Data-CSV-orange)
 
+---
 
 ## 📌 Overview
-This project analyzes Blinkit's sales performance, customer satisfaction, and inventory distribution using **MySQL queries**.  
-The goal is to generate insights that help optimize sales, outlet performance, and customer experience.
-This MySQL project analyzes ~50,000 grocery sales records over a 1-year period to assess performance, outlet distribution, and customer ratings.
+An end-to-end SQL project analyzing Blinkit Grocery’s sales performance, outlet distribution, and customer ratings.  
+Dataset: ~8,500 grocery sales records with product details, fat content, ratings, and outlet info.
 
 ---
 
-## 🎯 Business Requirements
-- Calculate **key KPIs**: Total Sales, Average Sales, Number of Items, Average Rating  
+## 📂 Project Files
+- `blinkit.sql` → SQL queries  
+- `BlinkIT Grocery Data.csv` → Dataset  
+- `Query Doc.docx` → Query documentation + explanations  
+- `Blinkit Analysis.pptx` → Presentation with findings  
+
+---
+
+## 🚀 How to Run
+1. Import `BlinkIT Grocery Data.csv` into MySQL  
+2. Execute queries from `blinkit.sql`  
+3. Explore query explanations in `Query Doc.docx`  
+4. Review summary insights in `Blinkit Analysis.pptx`  
+
+---
+
+## 🎯 Business Goals
+- Generate **KPIs**: Total Sales, Average Sales, Number of Items, Average Rating  
 - Analyze sales across:
   - Item Fat Content  
   - Item Type  
@@ -24,40 +41,18 @@ This MySQL project analyzes ~50,000 grocery sales records over a 1-year period t
 
 ## 🛠️ Tech Stack
 - **Database:** MySQL  
-- **Dataset:** BlinkIT Grocery Data  
-- **Visualization:** Power BI (supporting dashboards)  
+- **Dataset:** BlinkIT Grocery Data (CSV)  
+- **Documentation:** SQL queries + explanations  
 
 ---
 
 ## 📊 Key Insights
-- **Data Cleaning**: Standardized `Item_Fat_Content` values (e.g., "LF", "low fat" → "Low Fat").  
-- **KPIs Generated**:
-  - Total Sales (in Millions)  
-  - Average Sales per item  
-  - Number of Orders  
-  - Average Rating  
-- **Analysis Dimensions**:
-  - Sales by Fat Content  
-  - Sales by Item Type  
-  - Sales by Outlet Establishment Year  
-  - Sales % by Outlet Size  
-  - Sales by Location & Outlet Type  
+- Standardized inconsistent values in `Item_Fat_Content` (e.g., LF → Low Fat).  
+- Created KPIs for **sales, orders, ratings, and visibility**.  
+- Sales breakdowns by **Item Type, Fat Content, Outlet Establishment Year, and Location**.  
+- Pivot queries used to compare **sales across Outlet Locations vs Fat Content**.  
+- Calculated **sales percentage contribution by outlet size**.  
 
 ---
 
-## 📂 Project Files
-- `blinkit.sql` → SQL queries for analysis  
-- `BlinkIT Grocery Data.csv` → Raw dataset  
-- `Query Doc.docx` → Query documentation + explanations  
-- `Blinkit Analysis.pptx` → Visual presentation of results  
-
----
-
-## 🚀 How to Run
-1. Import `BlinkIT Grocery Data.csv` into MySQL  
-2. Run queries from `blinkit.sql`  
-3. (Optional) Use Power BI to visualize results  
-
----
-
-✨ *This project demonstrates how SQL can be used for real-world business analysis.*  
+✨ *This project demonstrates SQL’s power in solving real-world business problems.*
