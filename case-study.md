@@ -37,13 +37,13 @@ This dataset provided a balanced mix of **product attributes**, **customer feedb
 Below are three key visuals from the analysis:  
 
 **1. KPI Overview**  
-![KPI Dashboard](visuals/kpi_dashboard.png)  
+![KPI Dashboard](visual/kpi_dashboard.png)  
 
 **2. Sales by Outlet Type & Size**  
-![Outlet Sales](visuals/outlet_sales.png)  
+![Outlet Sales](visual/outlet_sales.png)  
 
 **3. Sales Contribution by Item Fat Content**  
-![Fat Content Analysis](visuals/fat_content.png)  
+![Fat Content Analysis](visual/fat_content.png)  
 
 
 ---
