@@ -39,6 +39,11 @@ Dataset: ~8,500 grocery sales records with product details, fat content, ratings
 
 ---
 
+## 📄 Detailed Case Study
+For the full structured case study → [View Here](CASE_STUDY.md)
+
+---
+
 ## 🛠️ Tech Stack
 - **Database:** MySQL  
 - **Dataset:** BlinkIT Grocery Data (CSV)  
