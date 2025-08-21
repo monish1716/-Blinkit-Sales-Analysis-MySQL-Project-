@@ -55,4 +55,9 @@ Dataset: ~8,500 grocery sales records with product details, fat content, ratings
 
 ---
 
+## 📄 Detailed Case Study
+For the full structured case study → [View Here](CASE_STUDY.md)
+
+---
+
 ✨ *This project demonstrates SQL’s power in solving real-world business problems.*
